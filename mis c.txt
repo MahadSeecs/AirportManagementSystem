@@ -1,0 +1,19 @@
+def passengerButtonPressed(self,checked):
+        self.passenger = PassengerWindow()
+        self.passenger.show()
+        self.close()
+    
+    def flightButtonPressed(self,checked):
+        self.flight = FlightWindow()
+        self.flight.show()
+        self.close()
+
+    def aircraftButtonPressed(self,checked):
+        self.aircraft = AircraftWindow()
+        self.aircraft.show()
+        self.close()
+
+    def airportButtonPressed(self,checked):
+        self.airport = AirportWindow()
+        self.airport.show()
+        self.close()
